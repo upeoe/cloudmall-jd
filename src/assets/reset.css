@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0;}
+*{box-sizing: border-box;}
+*{
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+*::before{box-sizing: border-box;}
+*::after{box-sizing: border-box;}
