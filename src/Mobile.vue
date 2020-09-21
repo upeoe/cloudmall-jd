@@ -32,6 +32,9 @@
  * 先给所有元素加上过度效果
  */
 * {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
 }
 
